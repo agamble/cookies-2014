@@ -1,0 +1,169 @@
+@font-face {
+	font-family: Cala;
+	src: url('Cala.otf');
+}
+
+* {
+	font-family: Cala, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+.container {
+	width: 80%;
+	max-width: 1000px;
+	margin: 0 auto;
+	height: auto;
+}
+
+#header {
+	height: 100%;
+	display: block;
+	position: absolute;
+	top: 0;
+	background: url('code.jpg') no-repeat top center fixed;
+	width: 100%;
+	color: white;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#header_content {
+	position: absolute;
+	width: 800px;
+	margin-left: -400px;
+	text-align: center;
+	left: 50%;
+	height: 100%;
+}
+
+#header_text {
+	top: 50%;
+	background: rgba(255, 255, 255, 0.5);
+	padding: 40px;
+	margin-top: 100px;
+	color: black;
+}
+
+#title {
+	font-size: 40pt;
+	margin: 20px;
+	font-family: Cala, serif;
+
+}
+
+#tagline {
+	font-size: 15pt;
+}
+
+#logo_container {
+	margin: 40px auto;
+	margin-top: 100px;
+	font-size: 40pt;
+}
+
+.logo {
+	width: 200px;
+	vertical-align: middle;
+}
+
+#present_text {
+	font-style: italic;
+	font-size: 40pt;
+}
+
+#below_content {
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	margin-top: 50px;
+}
+
+#navbar {
+	list-style: none;
+	text-align: center;
+	font-size: 20pt;
+	margin: 20px auto;
+}
+
+#navbar li {
+	display: inline;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.hero {
+	width: 500px;
+	margin-top: 20px;
+	margin: 100px auto;
+	text-align: center;
+}
+
+.items li {
+	display: inline-block;
+	width: 20.333%;
+	margin: 6%;
+	text-align: center;
+	padding: 40px;
+	border: 1px solid #dddddd;
+	background-color: #eeeeee;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+.items .item_title {
+	font-size: 20pt;
+	margin: 10px;
+}
+
+.items .item_description {
+	font-size: 10pt;
+}
+
+.card {
+	width: 50%;
+	margin: 40px auto;
+	border: 1px solid #dddddd;
+	background-color: #eeeeee;
+	padding: 50px;
+	position: relative;
+	overflow: hidden;
+}
+
+.card .card_title {
+	font-size: 24pt;
+	width: 60%;
+}
+
+.card .card_content {
+	width: 60%;
+	margin-top: 30px;
+}
+
+.card .card_image_left {
+	position: absolute;
+	top: 10%;
+	right: 0px;
+	height: 400px;
+}
+
+.button_box {
+	margin: 50px;
+	background-color: #eeeeee;
+	padding: 50px;
+	float: left;
+	margin-left: 200px;
+
+}
+
+#show_hide {
+	padding: 50px;
+	color: white;
+	background-color: black;
+	margin: 50px;
+	float: left;
+	margin-left: 200px;
+}
